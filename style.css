@@ -61,7 +61,7 @@ body {
 }
 
 #menu-icon {
-  font-size: 3.6rem;
+  font-size: 2rem;
   color: white;
   cursor: pointer;
   display: none;
@@ -804,6 +804,11 @@ form textarea {
 
 /* GALLERY SECTION */
 
+.ojt-hr {
+  width: 30%;
+  margin-top: -10px;
+}
+
 .carousel-wrapper {
   text-align: center;
 }
@@ -983,6 +988,7 @@ form textarea {
   .navbar.active {
     left: 0;
     transition-delay: 0s;
+    padding-bottom: 300px;
   }
 
   .navbar .active-nav {
@@ -1004,7 +1010,7 @@ form textarea {
   }
   .navbar a {
     display: block;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 3rem 0;
   }
 }
